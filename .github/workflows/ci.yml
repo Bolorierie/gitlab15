@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: calculator/calculator-backend
+        working-directory: calculator
 
     steps:
       - uses: actions/checkout@v4
