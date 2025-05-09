@@ -16,14 +16,11 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: calculator-backend
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Код татах
+        uses: actions/checkout@v4
 
-      - name: JDK 17 Тохируулах
+      - name: JDK 17 тохируулах
         uses: actions/setup-java@v4
         with:
           java-version: '17'
