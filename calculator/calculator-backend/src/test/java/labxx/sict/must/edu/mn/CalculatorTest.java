@@ -10,4 +10,4 @@ public class CalculatorTest {
         assertEquals(20, calc.multiply(4, 5));
     }
 }
-// CI Tes
+// CI Test
