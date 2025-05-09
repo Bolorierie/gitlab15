@@ -27,10 +27,10 @@ jobs:
           distribution: 'temurin'
 
       - name: Checkstyle Шалгах
-        run: mvn checkstyle:check
+        run: mvn clean verify
 
-      - name: JUnit Тест ба JaCoCo Coverage Шалгах
-        run: mvn test jacoco:check
+      # - name: JUnit Тест ба JaCoCo Coverage Шалгах
+      #   run: mvn test jacoco:check
 
-      - name: JaCoCo Тайлан Үүсгэх
-        run: mvn jacoco:report
+      # - name: JaCoCo Тайлан Үүсгэх
+      #   run: mvn jacoco:report
