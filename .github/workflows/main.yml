@@ -3,12 +3,10 @@ name: CI Процесс
 on:
   push:
     branches:
-      - main
       - develop
       - release/*
   pull_request:
     branches:
-      - main
       - develop
       - release/*
 
@@ -18,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: calculator\calculator-backend
+        working-directory: calculator/calculator-backend
 
     steps:
       - uses: actions/checkout@v4
